@@ -20,13 +20,13 @@
 </head>
 <body style="background:black url(BGG.png) no-repeat; color:white; font-family:Nunito;">
    <div style="text-align:center;height:100%;padding-top:10%;">
-      <h1>Coming soon</h1>
+      <h1 style="font-size:60px">Coming soon</h1>
       <p>This website is under construction. Please visit us again on the 28th of February 2020.</p>
       <h1>Thank you!</h1>
   
    </div>
    
-		<div class="clock" style="margin:2em;"></div>
+		<div class="clock" style="margin-left:auto;margin-right:auto"></div>
 		
 		<script type="text/javascript">
 			var clock;
@@ -45,7 +45,8 @@
 				// Instantiate a coutdown FlipClock
 				clock = $('.clock').FlipClock(diff, {
 					clockFace: 'DailyCounter',
-					countdown: true
+					countdown: true,
+					showSeconds: false
 				});
 			});
 		</script>
